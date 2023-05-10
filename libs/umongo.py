@@ -103,7 +103,7 @@ def get_OTA_TRIGGER(pprint=False):
 
 
 def update_OTA_TRIGGER(value=False, pprint=False):
-    # ------------------ UPDATE with $currentDate
+    # ------------------ UPDATE
     payload_updateOne = json.dumps({"dataSource": MONGO_SRC.dataSource,
                                     "database":   MONGO_SRC.database,
                                     "collection": MONGO_SRC.Collections.configSet,
