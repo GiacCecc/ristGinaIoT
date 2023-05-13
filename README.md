@@ -13,4 +13,4 @@ Description: First attempt to make a system controlling cold room temperature.
   - uwifi
   - uwhat
   - <span style="color:red">ugit</span> 
-  - #f03c15
+  - ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
