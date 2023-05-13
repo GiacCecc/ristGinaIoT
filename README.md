@@ -1,4 +1,4 @@
 # ristGinaIoT
 
-author:  Giacomo Ceccarelli
+author:  Giacomo Ceccarelli<br>
 version: 0.02
