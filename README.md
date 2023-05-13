@@ -1,4 +1,6 @@
 # ristGinaIoT
 
-author:  Giacomo Ceccarelli<br>
-version: 0.02
+Author:  Giacomo Ceccarelli<br>
+Version: 0.02
+
+Description: First attempt to make a system controlling cold room temperature.
