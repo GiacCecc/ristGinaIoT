@@ -17,6 +17,6 @@ _____ *uwifi.py*<br>
 ___ *utils/*<br>
 _____ *secrets.py* ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)<br>
 _____ *settings.py*<br>
-___ *boot.py/* ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)<br>
-___ *main.py/* ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)<br>
-___ *umain.py/*
+___ *boot.py* ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)<br>
+___ *main.py* ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)<br>
+___ *umain.p/*
