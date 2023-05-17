@@ -41,7 +41,7 @@ def body(pprint=False):
     
     # Instatiate DS18B20
     # -------------------------------------------------------------------
-    ds = ds18x20.DS18X20(onewire.OneWire(Pin(22)))
+    ds = ds18x20.DS18X20(onewire.OneWire(Pin(26)))
     roms = ds.scan()
     
     ds.convert_temp()
