@@ -66,7 +66,7 @@ def body(pprint=False):
             
             if timedelta >= MSG_TIMEDELTA:
                 print('---Timedelta from last whatmsg: {} ≥ {}'.format(timedelta, MSG_TIMEDELTA))
-                msg = 'Temperature: {:.2f}, last WhatsApp sent {} sec. ago.'.format(temp, timedelta)
+                msg = 'ALLARME! Temperatura CF01: {:.2f}'.format(temp)
                 what.sendmsg(WHAT_PHONE_NR,
                              WHAT_API_KEY,
                              util.url_encode(msg),
