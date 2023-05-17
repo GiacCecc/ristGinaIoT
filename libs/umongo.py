@@ -199,7 +199,7 @@ def insert_update(pprint=False):
     # ------------------ UPDATE with $currentDate
     payload_updateOne = json.dumps({"dataSource": MONGO_SRC.dataSource,
                                     "database":   MONGO_SRC.database,
-                                    "collection": MONGO_SRC.Collections.messages,
+                                    "collection": MONGO_SRC.Collections.updates,
                                     "filter": { "_id": { "$oid": str(response_dict['insertedId'] ) } },
                                     "update": { "$currentDate": { "updateTime": { "$type": "date" } } } } )
     
